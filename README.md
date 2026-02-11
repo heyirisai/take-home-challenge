@@ -19,6 +19,20 @@ A 3 to 5-hour AI-assisted development challenge for senior/staff backend/fullsta
 3. Add @noahpeden, @emirbirlik-dev, @Muhammad-Talha-Hashmi, and @mrkhalil6 to it
 4. Email noah@heyiris.ai, khalil@heyiris.ai, emir@heyiris.ai, talha@heyiris.ai and gadi@heyiris.ai when you've finished with the github repo link
 
+### About This Boilerplate
+
+This repo includes a fully wired Django + Next.js boilerplate (Docker, DRF, Tailwind, CORS, sample data, etc.) so you can skip the scaffolding and spend your time on the interesting work: RAG implementation, API design, data modeling, and frontend UX.
+
+**You are not required to use it.** If you'd rather start from scratch or use a different stack entirely, go for it. The boilerplate is here to save you time, not to constrain you.
+
+### API Key
+
+Noah will provide you with an Anthropic API key to use for this challenge. Add it to your `.env` file:
+
+```
+ANTHROPIC_API_KEY=<key-from-noah>
+```
+
 ---
 
 ## Getting Started
