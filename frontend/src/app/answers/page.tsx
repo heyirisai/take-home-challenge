@@ -1,16 +1,4 @@
 export default function AnswersPage() {
-  // TODO: Implement the answer review and management page
-  //
-  // Suggested features:
-  // - List questions with their generated answers
-  // - Show answer status (pending, generating, complete, error)
-  // - Allow editing/approving answers
-  // - Show source documents used for each answer
-  // - Show confidence scores
-  // - Export final answers
-  //
-  // The API client is available at @/lib/api
-
   return (
     <div>
       <div className="mb-8">
@@ -21,10 +9,7 @@ export default function AnswersPage() {
       </div>
 
       <div className="rounded-lg border border-dashed border-gray-300 bg-white p-12 text-center">
-        <p className="text-gray-500">
-          Answer review UI goes here. Check the TODO comments in this file to
-          get started.
-        </p>
+        <p className="text-gray-500">Build your answer review UI here.</p>
       </div>
     </div>
   );

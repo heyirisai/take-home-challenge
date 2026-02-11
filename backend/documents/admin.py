@@ -13,6 +13,3 @@ class DocumentAdmin(admin.ModelAdmin):
 class RFPDocumentAdmin(admin.ModelAdmin):
     list_display = ["title", "file_name", "uploaded_at"]
     search_fields = ["title", "content"]
-
-
-# TODO: Register your Question and Answer models here

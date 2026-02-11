@@ -101,39 +101,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000/api npm run dev
                     └──────────────┘
 ```
 
-**What's provided:**
-- Docker Compose with Postgres (pgvector), Redis, Django, and Next.js
-- Django project with DRF, CORS, and basic Document/RFPDocument models
-- Next.js app with Tailwind CSS, routing, nav, API client, and reusable components
-- Sample data: 3 company documents + 1 RFP with 5 questions
-- Seed command: `python manage.py load_sample_data`
-
-**What you build:**
-- RAG pipeline (document processing, embeddings, retrieval, generation)
-- Additional models (Questions, Answers, chunks, etc.)
-- API endpoints for question extraction and answer generation
-- Frontend page implementations (documents, RFP, answers)
-
----
-
-## Where to Start
-
-The boilerplate is set up so you can jump straight into the interesting work. Here's where to look:
-
-### Backend
-- **`backend/documents/models.py`** — `Document` and `RFPDocument` are done. Commented-out `Question` and `Answer` skeletons are there for inspiration — change them however you want.
-- **`backend/documents/views.py`** — Empty `ModelViewSet`s with TODO comments. Add your upload handling, question extraction, and answer generation logic.
-- **`backend/documents/serializers.py`** — Basic serializers provided. Add more as your API grows.
-- **`backend/documents/urls.py`** — DRF router ready. Register new viewsets as you create them.
-- **`backend/requirements.txt`** — Commented-out dependencies for OpenAI, LangChain, ChromaDB, pgvector, Celery, etc. Uncomment what you need.
-
-### Frontend
-- **`frontend/src/app/documents/page.tsx`** — Build the document management UI
-- **`frontend/src/app/rfp/page.tsx`** — Build the RFP upload and question extraction UI
-- **`frontend/src/app/answers/page.tsx`** — Build the answer review UI
-- **`frontend/src/lib/api.ts`** — API client with Document and RFP methods. Add your own.
-- **`frontend/src/lib/types.ts`** — TypeScript interfaces. Add Question, Answer, etc.
-- **`frontend/src/components/ui/FileUpload.tsx`** — Ready-to-use drag-and-drop file upload component
+**What's included:** Docker Compose with Postgres (pgvector), Redis, Django (DRF + CORS), and Next.js (Tailwind CSS). Basic `Document` and `RFPDocument` models, a few reusable UI components, a sample data seed command, and three empty pages wired to the nav. Everything else — data modeling, API design, RAG architecture, frontend UX — is up to you.
 
 ---
 

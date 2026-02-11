@@ -1,15 +1,4 @@
 export default function RFPPage() {
-  // TODO: Implement the RFP upload and question extraction page
-  //
-  // Suggested features:
-  // - Upload an RFP document (POST /api/rfp-documents/)
-  // - List previously uploaded RFPs
-  // - Show extracted questions from the selected RFP
-  // - Trigger answer generation for all questions
-  //
-  // The FileUpload component is available at @/components/ui/FileUpload
-  // The API client is available at @/lib/api
-
   return (
     <div>
       <div className="mb-8">
@@ -20,10 +9,7 @@ export default function RFPPage() {
       </div>
 
       <div className="rounded-lg border border-dashed border-gray-300 bg-white p-12 text-center">
-        <p className="text-gray-500">
-          RFP upload and question extraction UI goes here. Check the TODO
-          comments in this file to get started.
-        </p>
+        <p className="text-gray-500">Build your RFP upload and processing UI here.</p>
       </div>
     </div>
   );

@@ -33,6 +33,3 @@ class DocumentAPITest(APITestCase):
         data = {"title": "New Doc", "content": "Some content"}
         response = self.client.post("/api/documents/", data)
         self.assertEqual(response.status_code, 201)
-
-
-# TODO: Add tests for your Question, Answer, and RAG endpoints
