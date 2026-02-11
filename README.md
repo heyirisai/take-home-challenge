@@ -27,7 +27,7 @@ Build a simplified RFP (Request for Proposal) Answer Generator - a tool that tak
 
 **Time Limit:** 3-5 Hours
 
-Candidates must use AI-assisted development tools (Cursor, Claude Code, GitHub Copilot, etc.) and document their AI collaboration throughout.
+IMPORTANT: Candidates MUST USE AGENTIC DEVELOPMENT tools (Claude Code and Codex are preferred but Cursor and GitHub Copilot are allowed.) and document their AI collaboration throughout.
 
 ## Requirements
 
@@ -48,7 +48,7 @@ Candidates must use AI-assisted development tools (Cursor, Claude Code, GitHub C
 
 ### Stretch Goals (If Time Permits)
 
-- Async processing with Celery/Redis
+- Async processing with something along the lines Celery/Redis
 - Vector embeddings for semantic search
 - Batch question processing
 - Answer caching
