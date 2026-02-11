@@ -145,7 +145,7 @@ Build a simplified RFP (Request for Proposal) Answer Generator - a tool that tak
 
 **Time Limit:** 3-5 Hours
 
-**IMPORTANT** Candidates MUST use AI agentic development tools (preferably Codex or Claude Code, but Cursor, GitHub Copilot, are alloowed) and document their AI collaboration throughout. This is very important as you will not get through the project unless you use AI to its fullest extent. At Iris we use agentic development for everything and shipping with speed and quality are our biggest priorities and the best way to do that is with agentic, compound engineering. 
+**IMPORTANT** Candidates MUST use AI agentic development tools (preferably Codex or Claude Code, but Cursor, GitHub Copilot, are allowed) and document their AI collaboration throughout. This is very important as you will not get through the project unless you use AI to its fullest extent. At Iris we use agentic development for everything and shipping with speed and quality are our biggest priorities and the best way to do that is with agentic, compound engineering. 
 
 ## Requirements
 
