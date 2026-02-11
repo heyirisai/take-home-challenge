@@ -1,0 +1,26 @@
+Company Overview: Iris Technologies
+
+Iris Technologies is a Series B enterprise SaaS company founded in 2020, headquartered in San Francisco, California. We specialize in AI-powered document intelligence and workflow automation for mid-market and enterprise organizations.
+
+Mission: To eliminate repetitive knowledge work so teams can focus on high-value decisions.
+
+Key Facts:
+- Founded: 2020
+- Employees: 150+
+- Customers: 200+ enterprise clients across financial services, healthcare, and government sectors
+- Funding: $45M total raised (Series B led by Acme Ventures)
+- Annual Revenue: $20M ARR as of 2024
+
+Leadership Team:
+- CEO: Sarah Chen (ex-Google, Stanford CS)
+- CTO: Marcus Johnson (ex-AWS, MIT)
+- VP Engineering: Priya Patel (ex-Stripe)
+- VP Sales: David Kim (ex-Salesforce)
+
+Our platform processes over 1 million documents monthly and maintains 99.9% uptime. We serve customers across North America and Europe, with plans to expand to APAC in 2025.
+
+Company values:
+1. Customer obsession — every feature ships with customer feedback
+2. Technical excellence — we invest in doing things right
+3. Transparency — open communication internally and with customers
+4. Speed with quality — move fast without breaking things
