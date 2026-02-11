@@ -1,0 +1,51 @@
+Product Features: Iris Document Intelligence Platform
+
+1. Document Ingestion
+   - Supports PDF, DOCX, TXT, CSV, and HTML formats
+   - OCR capabilities for scanned documents (powered by Tesseract + custom ML models)
+   - Batch upload via API or drag-and-drop UI
+   - Automatic language detection for 12 languages
+   - Maximum file size: 50MB per document
+   - Processing time: average 3 seconds per page
+
+2. Intelligent Search
+   - Semantic search powered by vector embeddings (OpenAI ada-002)
+   - Hybrid search combining keyword (BM25) and semantic approaches
+   - Faceted filtering by document type, date, author, and custom metadata
+   - Search results include relevance scoring and source highlighting
+   - Average query response time: <200ms
+
+3. AI Answer Generation
+   - RAG (Retrieval-Augmented Generation) pipeline using GPT-4
+   - Configurable confidence thresholds (default: 0.7)
+   - Source attribution with exact passage citations
+   - Multi-document synthesis for complex queries
+   - Supports custom prompt templates per use case
+
+4. Workflow Automation
+   - Automated document classification into user-defined categories
+   - Rule-based routing to appropriate teams
+   - Integration with Slack, Microsoft Teams, and email for notifications
+   - Webhook support for custom integrations
+   - Scheduled processing jobs via cron-like interface
+
+5. Analytics Dashboard
+   - Document processing metrics (volume, speed, success rate)
+   - Search analytics (popular queries, zero-result queries)
+   - User activity tracking and audit logs
+   - Custom report builder with CSV/PDF export
+   - Real-time monitoring with alerting
+
+6. API & Integrations
+   - RESTful API with OpenAPI 3.0 documentation
+   - Python and JavaScript SDKs
+   - Pre-built integrations: Salesforce, HubSpot, SharePoint, Google Drive
+   - SSO support: SAML 2.0, OAuth 2.0, OpenID Connect
+   - Rate limiting: 1000 requests/minute (Enterprise), 100 requests/minute (Standard)
+
+7. Collaboration Features
+   - Document annotation and commenting
+   - Shared workspaces with role-based access
+   - Version history with diff view
+   - @mentions and task assignment
+   - Real-time collaborative editing (beta)

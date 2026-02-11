@@ -1,0 +1,54 @@
+Security & Compliance: Iris Technologies
+
+Data Security:
+- All data encrypted at rest using AES-256 encryption
+- Data encrypted in transit using TLS 1.3
+- Customer data is logically isolated in multi-tenant architecture
+- Database backups performed every 6 hours, retained for 30 days
+- Data centers: AWS us-east-1 (primary) and us-west-2 (disaster recovery)
+- RPO (Recovery Point Objective): 6 hours
+- RTO (Recovery Time Objective): 4 hours
+
+Compliance Certifications:
+- SOC 2 Type II (audited annually by Deloitte)
+- ISO 27001:2022 certified
+- GDPR compliant (EU data processing agreement available)
+- HIPAA compliant (BAA available for healthcare customers)
+- FedRAMP authorized (Moderate impact level) — in progress, expected Q2 2025
+- CCPA compliant
+
+Access Control:
+- Role-based access control (RBAC) with predefined and custom roles
+- Multi-factor authentication (MFA) required for all users
+- SSO integration via SAML 2.0 and OpenID Connect
+- Session timeout: configurable (default 30 minutes)
+- IP allowlisting available for Enterprise customers
+- Audit logging for all user actions, retained for 1 year
+
+Infrastructure Security:
+- AWS infrastructure with VPC isolation
+- Web Application Firewall (WAF) protection
+- DDoS mitigation via AWS Shield Advanced
+- Container-based deployment with automated vulnerability scanning
+- Penetration testing conducted quarterly by independent firm (NCC Group)
+- Bug bounty program via HackerOne
+
+AI/ML Security:
+- LLM prompts are not used to train third-party models
+- Customer data never leaves the customer's designated region
+- AI model outputs are logged and auditable
+- Prompt injection prevention measures in place
+- Option for customer-managed encryption keys (BYOK) for AI processing
+
+Incident Response:
+- 24/7 security operations center (SOC)
+- Incident response plan tested quarterly
+- Customer notification within 72 hours of confirmed breach (per GDPR)
+- Dedicated security contact for Enterprise customers
+- Post-incident reports provided within 5 business days
+
+Data Retention & Deletion:
+- Customer-configurable retention policies
+- Data deleted within 30 days of account termination
+- Customers can request immediate data deletion
+- Deletion verification certificate available upon request

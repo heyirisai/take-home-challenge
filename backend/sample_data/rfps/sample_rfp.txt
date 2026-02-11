@@ -1,0 +1,43 @@
+REQUEST FOR PROPOSAL
+Document Intelligence & Automation Platform
+Issued by: Acme Financial Services
+
+RFP Reference: ACME-2024-DOC-001
+Date Issued: November 1, 2024
+Response Deadline: December 1, 2024
+
+---
+
+SECTION 1: COMPANY BACKGROUND
+
+Acme Financial Services is a mid-size financial services firm with 500 employees across 3 offices. We process approximately 10,000 documents monthly including loan applications, compliance reports, and client correspondence. We are seeking a document intelligence platform to modernize our document workflows.
+
+---
+
+SECTION 2: QUESTIONS
+
+Please provide detailed responses to each question below.
+
+Question 1: Company Overview
+Please provide an overview of your company, including founding date, size, funding status, and relevant experience in the financial services sector.
+
+Question 2: Document Processing Capabilities
+What document formats does your platform support? Please describe your ingestion pipeline, including OCR capabilities, processing speed, and any file size limitations.
+
+Question 3: Security & Compliance
+Describe your security certifications and compliance posture. Specifically address SOC 2, HIPAA compliance, data encryption standards, and your incident response process. How do you ensure data isolation in a multi-tenant environment?
+
+Question 4: AI/ML Approach
+Explain your approach to AI-powered document understanding and answer generation. What models do you use? How do you handle accuracy and confidence scoring? How do you prevent AI hallucinations?
+
+Question 5: Integration & API
+Describe your API capabilities and available integrations. What is your rate limiting policy? Do you provide SDKs? Can your platform integrate with Salesforce and Microsoft Teams?
+
+---
+
+SECTION 3: SUBMISSION REQUIREMENTS
+
+- Responses should be detailed and specific
+- Include relevant case studies or references where possible
+- Pricing information should be provided separately
+- Technical architecture diagrams are encouraged
